@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
   res.send("Hey there!");
 });
 
-app.listen();
+app.listen(port, () => console.log(`Server running at ${port}`));
